@@ -4,7 +4,7 @@ pandas
 scikit-learn
 plotly
 dill
-
+fpdf2
 qiskit
 qiskit-machine-learning
 qiskit-algorithms
