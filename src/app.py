@@ -25,10 +25,15 @@ st.markdown("---")
 @st.cache_resource
 def load_quantum_model():
     if not os.path.exists(model_path):
-        st.error(f"❌ Model file not found at: {model_path}. Please run main.py first!")
+        st.warning(f"Quantum model file not found at: {model_path}. Running in fallback mode.")
         return None
-    with open(model_path, 'rb') as f:
-        return dill.load(f)
+
+    try:
+        with open(model_path, 'rb') as f:
+            return dill.load(f)
+    except Exception as e:
+        st.warning("Quantum model could not be loaded in this deployment. The app will use fallback mode.")
+        return None
 
 # --- 4. LOAD DATA + TRAIN UNCERTAINTY MODEL ONCE ---
 @st.cache_resource
@@ -40,7 +45,7 @@ def load_uncertainty_model():
 vqc = load_quantum_model()
 unc_bundle = load_uncertainty_model()
 
-if vqc and unc_bundle:
+if unc_bundle:
     unc_model, qhat = unc_bundle
 
     # --- 5. INPUTS ---
@@ -94,10 +99,21 @@ if vqc and unc_bundle:
     if st.button("🚀 Run Quantum Diagnostic Analysis"):
         input_data = np.array([[f0, f1, f2, f3, f4, f5]])
 
-        # Quantum prediction
-        prediction = vqc.predict(input_data)
-        result_val = int(np.asarray(prediction).flatten()[0])
-        quantum_label = "High Lupus Risk" if result_val == 1 else "Low Risk"
+        # Quantum prediction with safe fallback
+        if vqc is not None:
+            try:
+                prediction = vqc.predict(input_data)
+                result_val = int(np.asarray(prediction).flatten()[0])
+                quantum_label = "High Lupus Risk" if result_val == 1 else "Low Risk"
+                quantum_available = True
+            except Exception:
+                result_val = 1 if float(unc_model.predict_proba(input_data)[0][1]) >= 0.5 else 0
+                quantum_label = "Unavailable (fallback used)"
+                quantum_available = False
+        else:
+            result_val = 1 if float(unc_model.predict_proba(input_data)[0][1]) >= 0.5 else 0
+            quantum_label = "Unavailable (fallback used)"
+            quantum_available = False
 
         # Classical uncertainty model probabilities
         unc_probs = unc_model.predict_proba(input_data)[0]
@@ -105,9 +121,16 @@ if vqc and unc_bundle:
         high_risk_prob = float(unc_probs[1]) * 100
 
         # Hybrid ensemble prediction
-        hybrid_pred, hybrid_lupus_prob, hybrid_low_prob, classical_weight, quantum_weight = dynamic_ensemble_predict(
-            result_val, unc_probs
-        )
+        if quantum_available:
+            hybrid_pred, hybrid_lupus_prob, hybrid_low_prob, classical_weight, quantum_weight = dynamic_ensemble_predict(
+                result_val, unc_probs
+            )
+        else:
+            hybrid_pred = 1 if float(unc_probs[1]) >= 0.5 else 0
+            hybrid_lupus_prob = float(unc_probs[1]) * 100
+            hybrid_low_prob = float(unc_probs[0]) * 100
+            classical_weight = 1.0
+            quantum_weight = 0.0
 
         # Use hybrid probability as final displayed risk
         risk_score = round(hybrid_lupus_prob, 2)
@@ -145,8 +168,12 @@ if vqc and unc_bundle:
             st.write(f"**Classical Model Lupus Probability:** {high_risk_prob:.2f}%")
             st.write(f"**Final Hybrid Prediction:** {risk_level}")
             st.write(f"**Final Hybrid Lupus Probability:** {hybrid_lupus_prob:.2f}%")
-            st.write(f"**Quantum Weight:** {quantum_weight:.2f}")
-            st.write(f"**Classical Weight:** {classical_weight:.2f}")
+            if quantum_available:
+                st.write(f"**Quantum Weight:** {quantum_weight:.2f}")
+                st.write(f"**Classical Weight:** {classical_weight:.2f}")
+            else:
+                st.write("**Quantum Weight:** Not available in fallback mode")
+                st.write("**Classical Weight:** 1.00")
 
         # Safety banner
         st.markdown("### Safety Level")
