@@ -1,0 +1,82 @@
+﻿RA,Gender,PROV,AGE,age onset,Fever,Fever weight,ACL,acute cutaneous lupus weight,CCL,CCL weight,Oral Ul,Oral Ul weight,Alopecia,Alopecia weight,joint pain,joint pain weight,Serositis,Serositis,Renal,lupus nephritis class,LN class weight,Proteinuria,Proteinuria weight,vasculitis,Neurologic,Neurologic weight,Hemolytic Anemia,Hemolytic Anemia weight,Combs,Leukopenia,Leukopenia weight,Thrombocytopenia,Thrombocytopenia weight,Anti-Nuclear Antibody,Anti-dsDNA,Anti-dsDNA weight,Anti-Sm,Anti-Sm weight,Anti-Phospholipid,Anti-Phospholipid weight,Low C3,Low C4,Complements weight,Azathioprine,Hydroxychloroquine,Corticosteroids,Methotrexate,Cyclophosphamide,Mycophenolate Mofetil,Rituximab,Belimumab,Aspirin ,Rheumatoid Factor,Classification Score
+RA1001,Male,Muscat,19,12,Fever,2,Rash,6,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,Anemia,4,Y,Y,3,N,0,N,N,0,N,0,N,0,N,N,0,N,N,N,N,N,N,N,N,N,N,19
+RA1002,Female,Al Batinah,21,14,Fever,2,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,N,Y,N,N,N,N,N,P,6
+RA1003,Male,Interior,21,7,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,N,Y,N,N,N,N,N,N,6
+RA1004,Female,Salalah,22,,N,0,Rash,6,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,N,N,N,N,N,N,N,N,N,12
+RA1006,Female,Al Sharqiya,21,9,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,N,Y,N,N,N,N,N,N,6
+RA1007,Female,Al Sharqiya,22,11,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,P,2,N,N,0,N,N,N,Y,N,N,N,N,N,N,8
+RA1008,Female,Al Dhahira,26,15,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1010,Female,Al Batinah,28,,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,N,6
+RA1011,Male,Al Sharqiya,27,12,Fever,2,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,N,6
+RA1012,Female,Interior,28,15,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,Y,N,N,N,N,N,N,N,6
+RA1013,Female,Al Dhahira,29,22,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,P,6
+RA1014,Male,Al Batinah,29,15,N,0,Rash,6,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,N,Y,N,N,N,N,N,N,12
+RA1015,Female,Al Sharqiya,28,6,N,0,N,0,N,0,N,0,Alopecia,2,joint pain,6,N,0,N,N,0,N,0,N,N,0,Anemia,4,Y,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,N,Y,N,N,N,N,N,N,12
+RA1016,Female,Al Batinah,29,9,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,Y,Y,Y,Y,N,N,N,N,N,P,6
+RA1017,Female,Al Batinah,30,22,N,0,Rash,6,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,Y,Y,N,N,N,Y,N,N,N,12
+RA1019,Female,Al Batinah,31,24,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,P,6
+RA1019,Female,Al Batinah,31,26,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,Anemia,4,Y,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,Y,N,10
+RA1020,Female,Interior,32,18,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,N,6
+RA1021,Female,Al Batinah,32,9,Fever,2,N,0,N,0,N,0,Alopecia,2,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,N,N,N,N,N,N,N,8
+RA1022,Female,Muscat,32,15,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,Y,Y,N,N,N,N,N,N,N,6
+RA1023,Female,Al Batinah,33,18,Fever,2,Rash,6,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,P,6,N,0,N,0,N,N,0,Y,Y,Y,Y,N,N,N,N,Y,P,18
+RA1024,Female,Muscat,34,9,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,N,Y,N,N,N,N,N,P,6
+RA1025,Female,Al Sharqiya,34,23,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,Y,Y,Y,N,N,N,N,N,Y,N,6
+RA1026,Female,Al Batinah,34,30,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,N,6
+RA1027,Female,Al Batinah,34,25,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,Anemia,4,Y,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,P,10
+RA102B,Female,Muscat,36,23,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,Y,Y,N,N,N,N,N,Y,N,6
+RA1029,Female,Interior,57,40,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,P,6
+RA1030,Female,Muscat,36,12,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,P,6
+RA1031,Female,Al Dhahira,37,25,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,P,6
+RA1032,Female,Al Batinah,38,25,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,Y,N,N,P,6
+RA1034,Male,Interior,39,27,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,Low,Low,4,N,Y,Y,Y,Y,N,Y,N,N,P,10
+RA1035,Female,Al Dhahira,38,27,N,0,N,0,N,0,N,0,Alopecia,2,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,N,8
+RA1036,Female,Muscat,39,31,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,MP,2,N,N,0,N,Y,Y,Y,N,N,N,N,Y,N,8
+RA1037,Female,Al Batinah,39,28,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,P,6
+RA1046,Female,Al Dhahira,45,38,N,0,Rash,6,N,0,N,0,Alopecia,2,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,Low,N,3,N,Y,Y,N,N,N,N,N,Y,P,17
+RA1047,Female,Al Batinah,43,38,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1048,Female,Muscat,44,30,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,Y,N,6
+RA1049,Female,Al Batinah,45,21,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,WP,6
+RA1050,Female,Muscat,44,31,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,Y,P,6
+RA1051,Female,Al Batinah,34,30,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1052,Female,Muscat,45,37,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,N,6
+RA1053,Female,Muscat,44,40,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,N,N,N,N,N,Y,P,6
+RA1054,Female,Muscat,47,41,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,Y,N,N,P,6
+RA1055,Female,Al Dhahira,54,35,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,N,6
+RA1056,Female,Al Dhahira,47,40,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1057,Female,Al Sharqiya,49,38,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,Y,Y,Y,Y,N,N,N,N,Y,P,6
+RA1059,Male,Al Dhahira,48,,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1059,Female,Muscat,49,41,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,Y,Y,Y,Y,N,N,N,N,N,P,6
+RA1060,Female,Al Sharqiya,49,37,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,P,6
+RA1061,Female,Muscat,51,44,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1062,Female,Muscat,54,50,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,Anemia,4,Y,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,N,N,N,N,N,N,N,10
+RA1063,Female,Al Batinah,53,32,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,Anemia,4,Y,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,Y,N,N,P,10
+RA1064,Female,Muscat,51,38,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,P,6
+RA1065,Female,Al Sharqiya,49,32,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1066,Female,Interior,59,49,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1067,Female,Al Dhahira,55,45,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1068,Female,Muscat,56,33,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,WP,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,N,6
+RA1069,Female,Al Batinah,56,50,Fever,2,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,P,6
+RA1070,Male,Al Batinah,57,51,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,P,6
+RA1071,Male,Al Batinah,57,52,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,N,6
+RA1072,Female,Al Batinah,57,23,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,P,6
+RA1073,Female,Muscat,58,54,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,N,Y,N,N,N,N,Y,N,6
+RA1074,Male,Muscat,58,45,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,P,6
+RA1075,Female,Muscat,56,43,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,Y,N,N,N,N,N,Y,N,6
+RA1076,Female,Dhofar,58,47,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,P,6,N,0,N,0,N,Low,3,N,N,Y,Y,N,N,Y,N,N,N,15
+RA1077,Female,Muscat,57,50,Fever,2,Rash,6,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,12
+RA 1079,Male,Muscat,61,,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,N,N,N,N,N,N,N,N,6
+RA 1080,Female,Muscat,58,45,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,P,6
+RA1051,Female,Dhofar,61,54,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,Y,N,6
+RA1082,Female,Al Batinah,59,47,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA10B3,Female,Al Batinah,69,56,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,N,6
+RA 1084,Female,Al Batinah,64,44,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,Y,Y,N,N,N,N,N,N,P,6
+RA20B5,Female,Al Batinah,65,53,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,P,N,0,N,0,N,0,N,N,0,N,N,Y,Y,N,N,N,N,N,P,6
+RA1095,Female,Interior,66,53,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RÀ1087,Female,Al Batinah,62,54,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1096,Female,Muscat,75,62,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,N,6
+RA1097,Male,Interior,72,54,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,P,6
+RA 1098,Female,Al-Buraimi,75,61,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,N,6
+RA1099,Male,Al Batinah,75,64,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,Y,P,6
+RA1100,Female,Al Batinah,79,,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,N,Y,Y,Y,N,N,N,N,N,P,6
+RA1102,Female,Al Batinah,92,,N,0,N,0,N,0,N,0,N,0,joint pain,6,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,N,0,N,0,N,0,N,N,0,Y,Y,Y,N,N,N,N,N,Y,P,6

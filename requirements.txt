@@ -1,0 +1,10 @@
+streamlit
+numpy
+pandas
+scikit-learn
+plotly
+dill
+
+qiskit
+qiskit-machine-learning
+qiskit-algorithms
