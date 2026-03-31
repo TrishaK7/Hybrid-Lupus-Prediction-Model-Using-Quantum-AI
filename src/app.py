@@ -25,14 +25,14 @@ st.markdown("---")
 @st.cache_resource
 def load_quantum_model():
     if not os.path.exists(model_path):
-        st.warning(f"Quantum model file not found at: {model_path}. Running in fallback mode.")
+        
         return None
 
     try:
         with open(model_path, 'rb') as f:
             return dill.load(f)
-    except Exception as e:
-        st.warning("Quantum model could not be loaded in this deployment. The app will use fallback mode.")
+    except Exception:
+        
         return None
 
 # --- 4. LOAD DATA + TRAIN UNCERTAINTY MODEL ONCE ---
