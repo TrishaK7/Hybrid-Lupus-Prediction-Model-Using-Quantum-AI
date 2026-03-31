@@ -1,10 +1,10 @@
 streamlit
-numpy
-pandas
-scikit-learn
-plotly
-dill
-fpdf2
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+plotly==5.24.1
+dill==0.3.8
+fpdf2==2.7.9
 qiskit==1.2.4
 qiskit-machine-learning==0.8.2
 qiskit-algorithms==0.3.1
