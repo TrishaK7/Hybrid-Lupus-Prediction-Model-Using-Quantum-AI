@@ -9,6 +9,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+fpdf2
 .Python
 build/
 develop-eggs/
