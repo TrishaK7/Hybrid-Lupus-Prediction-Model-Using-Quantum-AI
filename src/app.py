@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.graph_objects as go
 import numpy as np
-import dill
+
 import os
 import pandas as pd
 
@@ -10,9 +10,15 @@ from data_preprocessing import preprocess_hybrid_lupus
 from uncertainty_model import train_with_abstention, predict_with_abstention
 from hybrid_ensemble import dynamic_ensemble_predict
 
+from qiskit.circuit.library import ZZFeatureMap, RealAmplitudes
+from qiskit_machine_learning.algorithms import VQC
+from qiskit_algorithms.optimizers import SPSA
+from qiskit.primitives import StatevectorSampler as Sampler
+from qiskit_algorithms.utils import algorithm_globals
+
 # --- 1. ABSOLUTE PATH SETUP ---
 current_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.normpath(os.path.join(current_dir, "..", "results", "trained_lupus_model.pkl"))
+
 clinical_path = os.path.normpath(os.path.join(current_dir, "..", "dataset", "lupus_dataset.csv"))
 genomic_path = os.path.normpath(os.path.join(current_dir, "..", "dataset", "GSE65391_medium.txt"))
 
@@ -21,18 +27,46 @@ st.set_page_config(page_title="Quantum Lupus Insight", page_icon="🩺", layout=
 st.title("🩺 Quantum-Enhanced Lupus Early Prediction")
 st.markdown("---")
 
-# --- 3. LOAD THE LOCKED QUANTUM MODEL ---
+# --- 3. LOAD QUANTUM MODEL ---
+
+
 @st.cache_resource
 def load_quantum_model():
-    if not os.path.exists(model_path):
-        
-        return None
-
     try:
-        with open(model_path, 'rb') as f:
-            return dill.load(f)
-    except Exception:
-        
+        # same preprocessing pipeline you already use
+        X_train, X_test, y_train, y_test = preprocess_hybrid_lupus(clinical_path, genomic_path)
+
+        # same seed/settings as your local model
+        algorithm_globals.random_seed = 100
+        num_qubits = 6
+
+        feature_map = ZZFeatureMap(
+            feature_dimension=num_qubits,
+            reps=2,
+            entanglement="circular"
+        )
+
+        ansatz = RealAmplitudes(
+            num_qubits=num_qubits,
+            reps=3
+        )
+
+        initial_point = algorithm_globals.random.random(ansatz.num_parameters)
+
+        vqc = VQC(
+            feature_map=feature_map,
+            ansatz=ansatz,
+            optimizer=SPSA(maxiter=250),
+            sampler=Sampler(),
+            initial_point=initial_point
+        )
+
+        # train in cloud once, then cache
+        vqc.fit(X_train, y_train)
+        return vqc
+
+    except Exception as e:
+        st.error(f"Quantum model initialization failed: {e}")
         return None
 
 # --- 4. LOAD DATA + TRAIN UNCERTAINTY MODEL ONCE ---
